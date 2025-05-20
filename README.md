@@ -36,7 +36,7 @@ Plugin by Max Paperno
 
 ## License
 
-This project is released under the [GPL License](LICENSE).
+This project is released under the [GPL License](LICENSE_GPL).
 
 ## References
 
