@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>Wasim_Plugin_Patcher</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Assets\Images\FS20.png" />
+		<None Remove="Assets\Images\FS20sel.png" />
+		<None Remove="Assets\Images\FS24.png" />
+		<None Remove="Assets\Images\FS24sel.png" />
+		<None Remove="Assets\Images\insertHover.png" />
+		<None Remove="Assets\Images\Mainframe.png" />
+		<None Remove="Assets\Images\removeBut.png" />
+		<None Remove="Assets\Images\verifyHover.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Assets\Images\FS20.png" />
+		<Resource Include="Assets\Images\FS20sel.png" />
+		<Resource Include="Assets\Images\FS24.png" />
+		<Resource Include="Assets\Images\FS24sel.png" />
+		<Resource Include="Assets\Images\insertHover.png" />
+		<Resource Include="Assets\Images\Mainframe.png" />
+		<Resource Include="Assets\Images\removeBut.png" />
+		<Resource Include="Assets\Images\verifyHover.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="wasimcommander-module\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+</Project>
