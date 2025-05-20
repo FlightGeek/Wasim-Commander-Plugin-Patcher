@@ -39,9 +39,9 @@ Developed by FlightGeek
 This project is released under the [GPL License](LICENSE_GPL).
 
 ## References
-Plugin by Max Paperno
-Plugin File link : https://github.com/mpaperno/WASimCommander/releases
-WasimCommander by Max Paperno: https://github.com/mpaperno/WASimCommander
+-Plugin by Max Paperno
+-Plugin File link : https://github.com/mpaperno/WASimCommander/releases
+-WasimCommander by Max Paperno: https://github.com/mpaperno/WASimCommander
 
 ## Credits
 
